@@ -12,36 +12,66 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  >
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   </head>
   <body >
  
  <nav class=" first-nav container-custom">
 
 <img class="nav-img" src="./assets/img/WhatsApp_Image_2025-03-02_at_7.26.54_AM-removebg-preview.png" alt="">
-<ul class="">
-    <li><a href="#">About us</a></li>
-    <li><a href="#">services</a></li>
-    <li><a href="#">destinations</a></li>
-    <li><a href="#">contact us</a></li>
+
+<div class="navbar__toggle" id="mobile-menu">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+    </div>
+<div class="menu" id="navbar-menu">
+    <ul class="services-nav nav">
+    <li class="nav-item"><a href="#">About us</a></li>
+    <li class="nav-item"><a href="#">services</a></li>
+    <li class="nav-item"><a href="#">destinations</a></li>
+    <li class="nav-item"><a href="#">contact us</a></li>
 </ul>
-<div class="nav-btn-container">
+<div class="nav-btn-container navbar-item">
     <button type="button" class="btn bg-white  btn-outline-success">Explore Now</button>
     <button  type="button" class="btn bg-success text-light">Book a Tour</button>
 </div>
+</div>
+
+
  </nav>
- <main class="container-fluid">
-    <video autoplay muted loop id="myVideo">
-        <source src="./assets/video/travel-website-asset.webm" type="video/mp4">
-      </video>
+ <main class="container-fluid d-flex justify-content-between align-content-center" >
+    <!-- <video autoplay muted loop id="myVideo">
+        <source src="./assets/video/travel-asset-vid.webm" type="video/mp4" alt="vecteezey.com">
+      </video> -->
+         <div class="container-custom text-container-main d-flex flex-column justify-content-center">
+         
+            <h1> Discover the <span class="heart-span text-success" >heart</span> of Nigeria with Us</h1>
+            <p>Welcome to Easytravel Naija, your gateway to unforgettable Nigerian adventures. We specialize in crafting personalized tours that showcase the rich culture and stunning landscapes of this vibrant nation. Let us guide you on an extraordinary journey.</p>
+            <figure>
+                 <input type="text" placeholder="Enter your email"> <button type="button" class="btn text-success bg-success"><a class="text-white" href="#">Sign up</a></button>
+                   <p>By signing up you agree to our   <a class="text-success" href="#">Terms and Conditions</a> and <a class="text-success" href="#">Privacy Policy.</a></p>
+            </figure>
+          
+         
+         </div>
+      <div class="container-custom"><img class="main-img" src="./assets/img/tenweb_media_RA1E4LNT7.webp" alt=""></div>
+   
  </main>
 
    
 
      
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+  
+<script defer src="./assets/js/script.js" type="text/javascript">
+    
+</script>
+
   </body>
 </html>
