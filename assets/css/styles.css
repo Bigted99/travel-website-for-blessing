@@ -4,8 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-    font-size: calc(6vw + vh)
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: calc(6vw + vh)
 }
 
 .container-custom {
@@ -69,19 +69,27 @@ main{
 .text-container-main{
     width: fit-content;
     padding: 11px 4rem;
+    font-size: calc(6vw + vh)
+ 
 }
 .heart-span{
     text-transform: capitalize;
-
+    font-weight: 700;
 }
 
 
 .text-container-main h1{
     width: 400px;
     padding-bottom: 3rem;
+    
+   
 }
+
+
 .text-container-main p {
     padding-top: 0;
+    
+  
 }
 
 
@@ -89,7 +97,10 @@ main{
 
 .main-img{
  height: 650px;
- padding: 1px 4rem;
+
+}
+.main-right{
+   padding: 1px 4rem;
 }
 
 
