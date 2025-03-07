@@ -39,6 +39,7 @@ ul,
 li {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-content:  baseline;
   margin-top: 1.4rem;
