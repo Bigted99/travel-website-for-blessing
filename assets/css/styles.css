@@ -325,3 +325,12 @@ main {
 .navbar{
   border-bottom: 2px solid black;
 }
+
+.explore-section{
+  background-color: var(--black);
+}
+
+.explore-left,.explore-right{
+  background-color: var(--black);
+  
+}
