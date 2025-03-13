@@ -48,33 +48,10 @@
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-
-/* .first-nav {
+/* .navbar{
   border-bottom: 2px solid black;
-}
-.img-container {
-  padding-left: 2rem;
-}
-.nav-left img {
-  width: 120px;
-}
+} */
 
-li a {
-  text-decoration: none;
-  color: black;
-} */
-/* nav {
-  text-transform: capitalize;
-  display: flex;
-  justify-content: space-between;
-
-  align-items: center;
-  border-bottom: 1px solid black;
-  
-} */
-/* .services-nav {
-  margin: 0;
-} */
 .services-nav .nav-text {
   font-weight: 500;
   padding: 1em 4em;
@@ -162,10 +139,7 @@ main {
 .mission-statement h2::after {
   content: "\0021";
 }
-.mission-p p {
- 
 
-}
 
  blockquote {
  padding: 1em 1em 2em 1em;
@@ -237,16 +211,52 @@ main {
   border: 1px solid green;
 }
 .cards h5 {
-  width: 250px;
+  width: 280px;
   /* padding: 5px 0 0 5px; */
   padding: 1rem 0 1rem;
   text-align: center;
+  text-transform: capitalize;
 }
 .cards p {
   font-size: 1rem;
   font-family: serif;
   width: 300px;
   text-align: center;
+}
+
+
+
+.explore-section{
+  background-color: var(--black);
+  padding: 4rem;
+}
+
+.explore-left,.explore-right{
+  background-color: var(--black);
+
+}
+
+.explore-left h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 3rem;
+  padding: 11px 6rem 11px 4rem;
+  width: 100%;
+}
+.explore-right>p{
+  /* padding: 11px 4rem 11px 11px; */
+  padding-right: 4rem;
+  width: 100%;
+}
+.city-div{
+  padding-right: 1rem;
+ 
+}
+.abj-div p, .lag-div p {
+ padding-right: 3.5rem;
+ 
+ font-family: serif;
 }
 
 @media (min-width: 474px) and (max-width: 640px) {
@@ -262,16 +272,7 @@ main {
     max-width: 640px;
   }
 
-  /* .menu-collapse {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
 
-  .first-nav {
-    display: flex;
-    flex-direction: column;
-  } */
 }
 
 @media (min-width: 968px) and (max-width: 1280px) {
@@ -322,15 +323,4 @@ main {
     background-color: #0056b3;
 } */
 
-.navbar{
-  border-bottom: 2px solid black;
-}
 
-.explore-section{
-  background-color: var(--black);
-}
-
-.explore-left,.explore-right{
-  background-color: var(--black);
-  
-}
