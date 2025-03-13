@@ -70,6 +70,13 @@
   width: 100px;
 }
 
+
+img:hover{
+transition: 1.5s;
+transform: scale(1.2);
+ cursor: pointer;
+}
+
 main {
   padding: 1.5rem 4rem;
 }
@@ -229,11 +236,12 @@ main {
 .explore-section{
   background-color: var(--black);
   padding: 4rem;
+  
 }
 
 .explore-left,.explore-right{
   background-color: var(--black);
-
+  font-size: calc(4vw + vh);
 }
 
 .explore-left h2{
@@ -243,6 +251,7 @@ main {
   font-size: 3rem;
   padding: 11px 6rem 11px 4rem;
   width: 100%;
+  
 }
 .explore-right>p{
   /* padding: 11px 4rem 11px 11px; */
