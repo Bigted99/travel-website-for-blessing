@@ -71,7 +71,7 @@
 }
 
 
-img:hover{
+.zoom img:hover{
 transition: 1.5s;
 transform: scale(1.2);
  cursor: pointer;
@@ -268,6 +268,24 @@ main {
  font-family: serif;
 }
 
+.testimonial-header h2{
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+.review-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+} 
+
+.card h5{
+  font-family: cursive;
+  font-style: italic;
+}
+
+.card p{
+  font-family: 'Times New Roman', Times, serif;
+}
 @media (min-width: 474px) and (max-width: 640px) {
   .container-custom {
     min-width: 474px;
