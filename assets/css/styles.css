@@ -52,6 +52,10 @@
   border-bottom: 2px solid black;
 } */
 
+img:hover{
+  cursor:grab;
+}
+
 .services-nav .nav-text {
   font-weight: 500;
   padding: 1em 4em;

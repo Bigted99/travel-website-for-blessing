@@ -15,5 +15,8 @@
     "url": "https://github.com/Bigted99/travel-website-for-blessing/issues"
   },
   "homepage": "https://github.com/Bigted99/travel-website-for-blessing#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  }
 }
