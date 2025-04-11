@@ -7,8 +7,11 @@
   font-size: 16px;
   /* font-size: calc(6vw + vh) */
   background-color: var(--gray-100);
+  scroll-behavior: smooth;
 }
-
+body{
+  padding-top: 56px;
+}
 :root {
   --gold: hsl(48, 100%, 50%);
   --gold-lighter: hsl(48, 22%, 30%);
@@ -40,6 +43,7 @@
   --gray-800: #343a40;
   --gray-900: #212529;
   --black: #000;
+  --invinsible: rgba(255, 255, 255, 0.3);
 }
 .container-custom {
   width: 100%;
@@ -52,10 +56,70 @@
   border-bottom: 2px solid black;
 } */
 
-img:hover{
-  cursor:grab;
+.first-nav{
+  height: 110px;
+}
+.modal{
+  
+   background-color: rgba(255, 255, 255, 0.3);  
+  /* Semi-transparent white */
+  /* backdrop-filter: blur(5px); */
+   /* Blur effect */
+  /* -webkit-backdrop-filter: blur(8px);  */
+  /* Safari support */
+  /* padding: 20px;
+  border-radius: 10px; */
 }
 
+.modal-header h5{
+ padding-left: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+.sign-up-form input{
+
+height: 60px;
+padding-inline: 2rem;
+
+border-radius: 1rem 14px;
+border:1px solid greenyellow ;
+
+}
+
+.sign-up-form .email-signup input{
+ width: 46%;
+}
+
+.sign-up-form{
+display: flex;
+flex-direction: column;
+align-items: center;
+ margin-top: 2rem;
+}
+
+/* img:hover{
+  cursor:grab;
+} */
+
+ .home{
+  background-color: var(--gray-200);
+  border-bottom: 6px solid;
+  border-bottom-color: var(--gray-600);
+}
+
+.nav-item:hover{
+  background-color: var(--gray-200);
+  border-bottom: 6px solid;
+  border-bottom-color: var(--gray-600);
+}
 .services-nav .nav-text {
   font-weight: 500;
   padding: 1em 4em;
@@ -75,9 +139,9 @@ img:hover{
 }
 
 
-.zoom img:hover{
+.zoom:hover, .btn:hover{
 transition: 1.5s;
-transform: scale(1.2);
+transform: scale(1.1);
  cursor: pointer;
 }
 

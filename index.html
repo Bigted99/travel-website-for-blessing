@@ -29,11 +29,11 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-dark">
+    <nav class="navbar first-nav fixed-top navbar-expand-lg navbar-light bg-light border-bottom border-dark">
       <div class="container justify-content-center">
         <div class="img-container">
           <img
-            class="nav-img navbar-brand"
+            class="nav-img navbar-brand zoom"
             src="./assets/img/E N (1).png"
             alt=""
           />
@@ -51,8 +51,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav text-center ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+            <li class="nav-item home">
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Services</a>
@@ -100,17 +100,121 @@
             class="sign-up-input"
           />
           <button
+            id="get-started"
+           data-bs-toggle="modal"
+           data-bs-target="#Mymodal"
             type="button"
             class="btn text-success bg-success text-white main-signup"
+             
+            
           >
             Sign up
           </button>
+    
           <p class="terms-p">
             By signing up you agree to our
             <a class="text-success" href="#">Terms and Conditions</a> and
             <a class="text-success" href="#">Privacy Policy.</a>
           </p>
+
+
         </figure>
+<!-- <div class="modal " id="myModal">
+   <div class="modal-dialog">
+    <div class="moodal-content">
+       <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div class="modal-header text-center">
+        
+        <h5 class="text-capitalize ">Sign Up</h5>
+           
+      </div>
+      <div class="modal-body">
+    <form>
+               
+          <div class="mb-3">
+            <label for="first-name" class="col-form-label">First Name:</label>
+            <input type="text" class="form-control" id="first-name">
+          </div>
+          <div class="mb-3">
+            <label for="last-name" class="col-form-label">Last Name:</label>
+            <input type="text" class="form-control" id="last-name">
+          </div>
+          <div class="mb-3">
+            <label for="user-email" class="col-form-label">Email:</label>
+            <input type="text" class="form-control" id="user-email">
+          </div>
+          <div class="mb-3">
+            <label for="user-password" class="col-form-label">password::</label>
+            <input type="password" class="form-control" id="first-name">
+          </div>
+          <div class="mb-3">
+            <label for="confirm-password" class="col-form-label">Confirm password:</label>
+            <input type="password" class="form-control" id="confirm-password">
+          </div>
+               
+      </form>
+
+                 </div>
+     <div class="modal-footer">
+                  <button type="submit" class="btn btn-dark">Submit</button>
+                  <button class="btn btn-primary">Log in</button>
+                 </div>
+          
+    </div>
+   </div>
+
+</div> -->
+
+
+<div class="popup modal modal-dialog-static " id="Mymodal">
+  <div class="popup-content modal-content bg-opacity-100">
+   
+    <div class="modal-header">
+      <h5 class="modal-title" id="staticBackdropLabel">Sign up</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    
+    <div class="modal-body container">
+      <svg  class="profile-svg" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+      </svg>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">First name</label>
+            <input type="text" class="form-control" id="inputFirstName" placeholder="first name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputLastName">Last name</label>
+            <input type="text" class="form-control" id="inputPassword4" placeholder="last name">
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="inputEmail1">Email</label>
+          <input type="email" class="form-control" id="inputEmail1" placeholder="Enter your email here">
+        </div>
+     
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputPassword1">Password</label>
+            <input type="password" class="form-control" id="inputPassword1" placeholder="type password">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword2">Password</label>
+            <input type="password" class="form-control" id="inputPassword2" placeholder="retype password">
+          </div>
+          </div>
+      </form>
+    </div>
+
+   <div class="modal-footer">
+     <a href="#" class="btn btn-dark">sign up</a>
+    <a href="#" class="btn btn-primary">sign up</a>
+   </div>
+   
+  </div>
+</div>
       </div>
       <div class="container-custom col-lg-5 main-right">
         <img
@@ -342,6 +446,16 @@
   </div>
   </footer>
 
-    <script defer src="./assets/js/script.js"></script>
+    <script defer src="./assets/js/script.js">
+
+// var modal = document.getElementById('get-started');
+
+// // When the user clicks anywhere outside of the modal, close it
+// window.onclick = function(event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+}
+    </script>
   </body>
 </html>
