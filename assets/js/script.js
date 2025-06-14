@@ -33,3 +33,7 @@
 //       x.className = "topnav";
 //     }
 //   }
+
+// const closeModal = document.getElementById("modal-btn").addEventListener("click", function(){
+//     document.getElementById("Mymodal").style.visibility = "hidden"
+// });

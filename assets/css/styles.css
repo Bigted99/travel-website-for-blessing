@@ -56,54 +56,91 @@ body{
   border-bottom: 2px solid black;
 } */
 
-.first-nav{
-  height: 110px;
+
+
+
+
+
+
+
+
+/* 
+.popup-content{
+ 
+ 
+} */
+
+
+
+.nav-btn-container-close{
+margin: 0 auto;
+width: 20px;
+position: relative;
 }
+
+
 .modal{
-  
-   background-color: rgba(255, 255, 255, 0.3);  
-  /* Semi-transparent white */
-  /* backdrop-filter: blur(5px); */
-   /* Blur effect */
-  /* -webkit-backdrop-filter: blur(8px);  */
-  /* Safari support */
-  /* padding: 20px;
-  border-radius: 10px; */
-}
-
-.modal-header h5{
- padding-left: 4rem;
-}
-
-
-
-
-
-
-
-
-
-
-.sign-up-form input{
-
-height: 60px;
-padding-inline: 2rem;
-
-border-radius: 1rem 14px;
-border:1px solid greenyellow ;
-
-}
-
-.sign-up-form .email-signup input{
- width: 46%;
+  background-image: url(../img/Explore-NigeriaVS5IF2.webp);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
 }
 
 .sign-up-form{
-display: flex;
-flex-direction: column;
-align-items: center;
- margin-top: 2rem;
+padding: 1rem ;
+
+height: 100%;
 }
+
+.sign-up-form input{
+  
+  padding: 1rem;
+}
+
+
+
+.modal-header{
+ background-color: var(--invinsible);
+  height: 70px;
+}
+
+
+.close-modal-btn{
+/* position: absolute; */
+ top: 1.5rem;
+right: 1.5rem;
+  pointer-events: auto !important;
+font-size:x-large;
+z-index: 1;
+}
+
+.login-input {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding: 0.5rem 0;
+  background: transparent;
+  width: 100%;
+}
+
+.login-input:focus {
+  border-bottom: 2px solid #0d6efd; /* Bootstrap primary color */
+}
+
+.close-modal-btn {
+  font-size: 1.5rem;
+  opacity: 1;
+}
+
+.modal-content {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+
+
+
 
 /* img:hover{
   cursor:grab;
@@ -269,6 +306,7 @@ main {
   height: 380px;
   object-fit: contain;
 }
+
 .cards {
   max-height: auto;
   max-width: fit-content;
@@ -281,6 +319,7 @@ main {
   padding: -1rem;
   margin: 1rem;
 }
+
 
 .cards:hover {
   border: 1px solid green;
@@ -321,6 +360,7 @@ main {
   width: 100%;
   
 }
+
 .explore-right>p{
   /* padding: 11px 4rem 11px 11px; */
   padding-right: 4rem;
